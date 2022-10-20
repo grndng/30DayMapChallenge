@@ -1,2 +1,4 @@
-*.ipynb_*
-*cache*
+*.day01/
+*.ipynb_checkpoints/
+*cache/
+packages/
