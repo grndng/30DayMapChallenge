@@ -11,7 +11,6 @@ applies to Hamburg which has an exclave called "Neuwerk" close
 to the North Sea.
 """
 
-from ast import main
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
