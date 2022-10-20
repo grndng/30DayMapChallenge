@@ -19,6 +19,7 @@ from keplergl import KeplerGl
 df = gpd.read_file("data/ne_10m_admin_0_countries.shp")
 
 france_complete = df[df["NAME"] == "France"]
+print(type(france_complete))
 # francentroid = Point(france_complete["geometry"].centroid.x, france_complete["geometry"].centroid.y)
 
 # Okay, so I specifically checked if all overseas territories of
@@ -28,18 +29,18 @@ france_complete = df[df["NAME"] == "France"]
 # add those too, right?
 
 france_complete = df[df["NAME"].str.startswith("Fr")]
-print(france_complete["NAME"])
-francentroid = Point(france_complete["geometry"].centroid.x, france_complete["geometry"].centroid.y)
+
+# francentroid = Point(france_complete["geometry"].centroid.x, france_complete["geometry"].centroid.y)
 
 
-# At this point: kill me for doing it with keplergl
-df = pd.DataFrame(
-    {'Country': ['France'],
-     'Latitude': [francentroid.y],
-     'Longitude': [francentroid.x]})
+# # At this point: kill me for doing it with keplergl
+# df = pd.DataFrame(
+#     {'Country': ['France'],
+#      'Latitude': [francentroid.y],
+#      'Longitude': [francentroid.x]})
 
-map = KeplerGl()
-map.add_data(data=df, name='Country')
-map.add_data(data = france_complete, name = "France")
-map.save_to_html(file_name = "test.html")
+# map = KeplerGl()
+# map.add_data(data=df, name='Country')
+# map.add_data(data = france_complete, name = "France")
+# map.save_to_html(file_name = "test.html")
 
