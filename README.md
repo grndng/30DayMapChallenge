@@ -19,6 +19,11 @@ Data source: Natural Earth Data
 ## Day 02: Lines
 Libraries used: pandas | altair
 
+Inspired by the US ZIPScribble Map (https://eagereyes.org/zipscribble-maps/united-states) I've looked for a way to replicate the same process to Germany. Mainly I wanted to see if regions will be as neatly divideable by ZIP codes only in Germany as well. 
+
+Data source: ???
+
+
 ## Day 03: Polygons
 Libraries used: 
 
