@@ -17,7 +17,7 @@ For the first day I wanted a quick win (spoiler: didn't work out) to stay motiva
 Data source: Natural Earth Data
 
 ## Day 02: Lines
-Libraries used: 
+Libraries used: pandas | altair
 
 ## Day 03: Polygons
 Libraries used: 
