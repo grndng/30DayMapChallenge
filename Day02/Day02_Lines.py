@@ -26,12 +26,12 @@ de = gpd.read_file("Day02/data/bl.json")
 
 # Loading the basemap as altair chart
 basemap = alt.Chart(de).mark_geoshape(
-    fill = "lightgray",
-    stroke = "white"
-).properties(
-    width=1400,
-    height=1000
-)
+        fill = "lightgray",
+        stroke = "white"
+    ).properties(
+        width=1400,
+        height=1000
+    )
 
 # Loading the lines and points to create visualization
 # I'm adding points for the *.html mainly so the tooltips
@@ -69,8 +69,17 @@ postcode_pts = alt.Chart(plz).transform_calculate(
     )
 
 # Putting together basemap, lines and points
-base_and_lines = basemap + postcode_lines
-with_points = base_and_lines + postcode_pts
+base_and_lines = alt.layer(basemap, postcode_lines).configure_view(
+    stroke="transparent"
+)
+
+with_points = alt.layer(basemap, postcode_lines, postcode_pts).configure_view(
+    stroke="transparent"
+)
+
+postcode_lines = alt.layer(postcode_lines).configure_view(
+    stroke="transparent"
+)
 
 # Saving them as html files
 base_and_lines.save("Day02/Day02_Lines.html")
