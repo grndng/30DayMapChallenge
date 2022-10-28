@@ -1,9 +1,9 @@
-ÿþï»¿# 30 Days Map Challenge
+# 30 Days Map Challenge
 
 ## Day 01: Points
 Libraries used: pandas | geopandas | shapely | keplergl
 
-For the first day I wanted a quick win (spoiler: didn't work outto stay motivated which didn't work out as intended. I wanted to show the difference of the centroid of France when considering the overseas areas in comparison to when considering only the mainland. The same applies to Hamburg to some degree due to an exclave called "Neuwerk" close to the North Sea.
+For the first day I wanted a quick win (spoiler: didn't work out) to stay motivated which didn't work out as intended. I wanted to show the difference of the centroid of France when considering the overseas areas in comparison to when considering only the mainland. The same applies to Hamburg to some degree due to an exclave called "Neuwerk" close to the North Sea.
 
 
 <p align="center">
@@ -17,11 +17,13 @@ For the first day I wanted a quick win (spoiler: didn't work outto stay motivate
 Data source: Natural Earth Data
 
 ## Day 02: Lines
-Libraries used: pandas | altair
+Libraries used: pandas | geopandas |Â altair
 
-Inspired by the US ZIPScribble Map (https://eagereyes.org/zipscribble-maps/united-states) I've looked for a way to replicate the same process to Germany. Mainly I wanted to see if regions will be as neatly divideable by ZIP codes only in Germany as well. 
+Inspired by the US ZIPScribble Map (https://eagereyes.org/zipscribble-maps/united-states) I've looked for a way to replicate the same process to Germany. Mainly I wanted to see if regions will be as neatly divideable by ZIP codes in Germany as well. 
 
-Data source: ???
+
+
+Data source: https://launix.de/launix/launix-gibt-plz-datenbank-frei/
 
 
 ## Day 03: Polygons
