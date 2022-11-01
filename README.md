@@ -1,4 +1,4 @@
-# 30 Days Map Challenge
+# 30 Day Map Challenge
 
 ## Day 01: Points
 Libraries used: pandas | geopandas | shapely | keplergl
