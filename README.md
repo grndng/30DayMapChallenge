@@ -17,7 +17,7 @@ Libraries used: pandas | geopandas | altair
 Inspired by the [US ZIPScribble Map](https://eagereyes.org/zipscribble-maps/united-states) I've looked for a way to replicate the same process to Germany. Mainly I wanted to see if regions will be as neatly divideable by ZIP codes in Germany as well. 
 
 <p align="center">
-  <img src="./Day02/Day02_Lines_nobg.png"/>
+  <img src="./Day02/Day02_Lines_wLegend.png"/>
 </p>
 
 Data source: Launix (https://launix.de/launix/launix-gibt-plz-datenbank-frei/)
