@@ -24,7 +24,10 @@ Data source: Launix (https://launix.de/launix/launix-gibt-plz-datenbank-frei/)
 
 
 ## Day 03: Polygons
-Libraries used: 
+Libraries used: geopandas
+
+
+Data source: Eurostat (https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
 ## Day 04: Colour Friday (Green)
 Libraries used: 
