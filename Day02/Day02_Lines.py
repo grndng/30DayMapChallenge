@@ -27,7 +27,8 @@ de = gpd.read_file("Day02/data/bl.json")
 # Loading the basemap as altair chart
 basemap = alt.Chart(de).mark_geoshape(
         fill = "lightgray",
-        stroke = "white"
+        stroke = "white",
+        opacity= 0.2
     ).properties(
         width=1400,
         height=1000
