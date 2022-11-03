@@ -35,6 +35,8 @@ Libraries used:
 ## Day 05: Ukraine
 Libraries used: 
 
+Idea: deepest metro station in Kiev
+
 ## Day 06: Network
 Libraries used: 
 
