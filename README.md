@@ -26,6 +26,9 @@ Data source: Launix (https://launix.de/launix/launix-gibt-plz-datenbank-frei/)
 ## Day 03: Polygons
 Libraries used: geopandas
 
+<p align="center">
+  <img src="./Day03/Day03_Polygons_wLegend.jpg"/>
+</p>
 
 Data source: Eurostat (https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
