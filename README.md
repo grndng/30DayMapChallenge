@@ -24,7 +24,9 @@ Data source: Launix (https://launix.de/launix/launix-gibt-plz-datenbank-frei/)
 
 
 ## Day 03: Polygons
-Libraries used: geopandas
+Libraries used: geopandas | pandas | keplergl
+
+A while back I've read an article about the Gender Pay Gap in Germany and how it's still a problem in most places. I also got some data for Germany but wanted to look at how Germany compares to other countries in the EU/Europe. I could get my hands on some data from the European Comission (Eurostat), combined the data with the corresponding areas and created a simple plot. Maybe I'll revisit this when doing interactive plots to show the difference of the Gender Pay Gap over time!
 
 <p align="center">
   <img src="./Day03/Day03_Polygons_wLegend.jpg"/>
