@@ -35,7 +35,15 @@ A while back I've read an article about the Gender Pay Gap in Germany and how it
 Data source: Eurostat (https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
 ## Day 04: Colour Friday (Green)
-Libraries used: 
+Libraries used: osmnx | matplotlib
+
+I was looking for the "greenest" city in Europe (how ever that might be determined) and stumbled upon the website of the European Commission which, each year, awards a city with the "European Green Capital Award". Next years winner is Tallinn, the capital of Estonia. Looking up Tallinn, I've seen quite some greenery in Mustamäe. Mustamäe translates to "Black Hill" which, in fact, looked pretty green from above which is why I decided to show it in todays map!
+
+<p align="center">
+  <img src="./Day04/Day04_Green_wTitle.jpg"/>
+</p>
+
+Data source: OpenStreetMap (https://www.openstreetmap.de/)
 
 ## Day 05: Ukraine
 Libraries used: 
