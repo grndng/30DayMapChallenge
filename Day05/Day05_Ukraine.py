@@ -18,7 +18,8 @@ base = ox.geocode_to_gdf(place)
 # Setting up tags (should simplify here...)
 buildings = {"building": True, "landuse":"harbour"}
 greenery = {"leisure":True, "landuse":"grass"}
-man_made_structures = {"man_made":"monitoring_station", "landuse":"residential"}
+man_made_structures = {"man_made":"monitoring_station", "landuse":"residential", "man_made":"breakwater"}
+pier = {"man_made":"pier"}
 beach = {"natural":"beach"}
 historic = {"historic":True}
 tourism = {"tourism":True}
@@ -47,6 +48,7 @@ get_geoms(beach).plot(ax=ax, facecolor="beige")
 get_geoms(lattice).plot(ax=ax, facecolor="silver")
 get_geoms(helipad).plot(ax=ax, facecolor="white", alpha=0.3)
 get_geoms(cliff).plot(ax=ax, edgecolor="brown", alpha=0.4)
+get_geoms(pier).plot(ax=ax, facecolor="gray", alpha=0.4)
 
 ax.set_facecolor("white")
 plt.tight_layout()

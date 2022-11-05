@@ -49,12 +49,12 @@ Data source: OpenStreetMap (https://www.openstreetmap.de/)
 Libraries used: osmnx | matplotlib
 
 <p align="center">
-  <img src="./Day05/Day05...."/>
+  <img src="./Day05/Day05_Ukraine_wIcons.jpg"/>
 </p>
 
 For Day 05: Ukraine I was really undecided what to do without doing something obvious and might have ended up doing something obvious: Snake Island. Since I'm trying to solve all 30 days with Python, I thought it might be appropriate to do Snake Island or Zmiinyi Island.
 
-Data source: OpenStreetMap (https://www.openstreetmap.de/)
+Data source: OpenStreetMap (https://www.openstreetmap.de/), Icon8 (https://icon8.com)
 
 ## Day 06: Network
 Libraries used: 
