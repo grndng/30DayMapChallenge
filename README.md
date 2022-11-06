@@ -48,16 +48,24 @@ Data source: OpenStreetMap (https://www.openstreetmap.de/)
 ## Day 05: Ukraine
 Libraries used: osmnx | matplotlib
 
+For Day 05: Ukraine I was really undecided what to do without doing something obvious and might have ended up doing something obvious: Snake Island. Since I'm trying to solve all 30 days with Python, I thought it might be appropriate to do Snake Island or Zmiinyi Island.
+
 <p align="center">
   <img src="./Day05/Day05_Ukraine_wIcons.jpg"/>
 </p>
 
-For Day 05: Ukraine I was really undecided what to do without doing something obvious and might have ended up doing something obvious: Snake Island. Since I'm trying to solve all 30 days with Python, I thought it might be appropriate to do Snake Island or Zmiinyi Island.
-
 Data source: OpenStreetMap (https://www.openstreetmap.de/), Icon8 (https://icon8.com)
 
 ## Day 06: Network
-Libraries used: 
+Libraries used: geopandas | pandas | osmnx | shapely | keplergl
+
+I first wanted to compare "metro network length" to "city area" but found out that plotting water bodies with OSMnx isn't trivial so I've switched over to look at the destinations in Europe of Turkish Airlines flights from Istanbul. Just to find out that that's not as trivial as well. Anyways, here is the map for Day 6: Networks!
+
+<p align="center">
+  <img src="./Day06/Day06_Networks_comparison.jpg"/>
+</p>
+
+Data source: OpenStreetMap (https://openstreetmap.de/), FlightConnections (https://www.flightconnections.com/flights-from-istanbul-ist)
 
 ## Day 07: Raster
 Libraries used: 
