@@ -62,16 +62,24 @@ Libraries used: geopandas | pandas | osmnx | shapely | keplergl
 I first wanted to compare "metro network length" to "city area" but found out that plotting water bodies with OSMnx isn't trivial so I've switched over to look at the destinations in Europe of Turkish Airlines flights from Istanbul. Just to find out that that's not as trivial as well. Anyways, here is the map for Day 6: Networks!
 
 <p align="center">
-  <img src="./Day06/Day06_Networks_comparison.jpg"/>
+  <img src="./Day06/Day06_Networks_wText.jpg"/>
 </p>
 
 Data source: OpenStreetMap (https://openstreetmap.de/), FlightConnections (https://www.flightconnections.com/flights-from-istanbul-ist)
 
 ## Day 07: Raster
-Libraries used: 
+Libraries used: pillow (PIL fork)
+
+Well, I guess this was my first five minute map for this challenge, there will be another one on another day. I didn't really have time so I went with a downsampling function I've written with pillow that gives your image a more "cubic" or obvious "raster"-like look. It's a simple function and in theory a good way to learn how down- and upsampling works.
+
+<p align="center">
+  <img src="./Day07/NASA_blue_marble_resampled.jpg"/>
+</p>
+
+Data source: NASA Blue Marble (https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry/73911l)
 
 ## Day 08: Data (Open Street Map)
-Libraries used: 
+Libraries used: osmnx | altair
 
 ## Day 09: Space
 Libraries used: 
