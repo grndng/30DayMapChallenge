@@ -1,3 +1,11 @@
+"""30 Day Map Challenge | Day 07: Raster
+
+I didn't have too much time today so I decided to go for something
+simple: I went with a downsampling function written with pillow 
+that gives images a more cube-like look. Learned about up- and 
+downsampling though!
+"""
+
 from PIL import Image
 
 # Data source: https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry/73911l
@@ -20,5 +28,6 @@ def sampling(input, output, factor, resampling_type=4) -> None:
     downsampling = input.resize((input.width//factor, input.height//factor), resample=resampling_type)
     upsampling = downsampling.resize(input.size, resample=resampling_type)
     upsampling.save(output)
+    return upsampling
 
 sampling(world_topography, output_path, 100)
