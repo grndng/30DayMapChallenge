@@ -79,7 +79,15 @@ Well, I guess this was my first five minute map for this challenge, there will b
 Data source: NASA Blue Marble (https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry/73911l)
 
 ## Day 08: Data (Open Street Map)
-Libraries used: osmnx | altair
+Libraries used: osmnx | matplotlib
+
+I've been using Open Street Map Data all the time accessing it with OSMnx so let's not change that. Todays map is showing St. Pauli (Sankt Pauli). St. Pauli is a quarter of the city of Hamburg and contains the red-light district around the Reeperbahn area. Besides that there are lots of bars and pubs which we are looking at today!
+
+<p align="center">
+  <img src="./Day08/Day08_OSM.jpg"/>
+</p>
+
+Data source: OpenStreetMap (https://openstreetmap.org/)
 
 ## Day 09: Space
 Libraries used: 
