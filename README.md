@@ -84,7 +84,7 @@ Libraries used: osmnx | matplotlib
 I've been using Open Street Map Data all the time accessing it with OSMnx so let's not change that. Todays map is showing St. Pauli (Sankt Pauli). St. Pauli is a quarter of the city of Hamburg and contains the red-light district around the Reeperbahn area. Besides that there are lots of bars and pubs which we are looking at today!
 
 <p align="center">
-  <img src="./Day08/Day08_OSM.jpg"/>
+  <img src="./Day08/Day08_OSM_wBG.jpg"/>
 </p>
 
 Data source: OpenStreetMap (https://openstreetmap.org/)
