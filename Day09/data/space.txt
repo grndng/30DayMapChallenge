@@ -1,0 +1,5 @@
+nation,amount
+UnitedStates,50
+canada,2
+russia,4
+japan,2

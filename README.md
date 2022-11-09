@@ -90,7 +90,11 @@ I've been using Open Street Map Data all the time accessing it with OSMnx so let
 Data source: OpenStreetMap (https://openstreetmap.org/)
 
 ## Day 09: Space
-Libraries used: 
+Libraries used: geopandas, pandas, keplergl, osmnx
+
+I had literally no idea what to do for today since I don't know any way to plot things in a coordinate system that's not on our planet. Which is why I decided not to look at space directly but to people who went to space. To be more precise I took a look at the countries of origin and gender of people who went to space according to the International Astronaut Database.
+
+Data source: International Astronaut Database (https://aerospace.csis.org/data/international-astronaut-database/), OpenStreetMap (https://osm.org/)
 
 ## Day 10: A bad map
 Libraries used: 
