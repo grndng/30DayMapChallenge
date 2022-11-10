@@ -23,7 +23,7 @@ fa_more_than_1 = df_female[df_female["Gender"] > 1]
 female_country_list = ["Canada","Nippon","Russia","USA"]
 male_country_list = ["Belgium", "Bulgaria", "Canada", "China", "France", "Germany", "Hungary", "Italy", "Nippon", "Kasachstan", "Netherlands", "Russia", "United Kingdom", "United States"]
 
-# Loop schreiben um die Länder-Shapes zu geiern
+# Loop to get the country shapes ;)
 def get_country_shapes(list):
     l = []
     for country in list:
