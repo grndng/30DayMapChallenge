@@ -101,7 +101,15 @@ I had literally no idea what to do for today since I don't know any way to plot 
 Data source: International Astronaut Database (https://aerospace.csis.org/data/international-astronaut-database/), OpenStreetMap (https://osm.org/)
 
 ## Day 10: A bad map
-Libraries used: 
+Libraries used: geopandas | pandas | keplergl
+
+Today we are revisiting Day 3. What we can see there is a pretty basic map showing the Gender Pay Gap in percent for 2020 in Europe. The first difference is the range that's being used to color the corresponding countries. The second difference is choice of color. Next to misleading color ranges (as inverting red and green for example), are easy to steer around.
+
+<p align="center">
+  <img src="./Day10/Day10_BadMap.jpg"/>
+</p>
+
+Data source: Eurostat (https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
 ## Day 11: Colour Friday (Red)
 Libraries used: 
