@@ -112,7 +112,15 @@ Today we are revisiting Day 3. What we can see there is a pretty basic map showi
 Data source: Eurostat (https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
 ## Day 11: Colour Friday (Red)
-Libraries used: 
+Libraries used: geopandas, pandas, keplergl
+
+Most of the time things that aren't optimal will be visualised in red and today we're following that trend by taking a look at the deforestation on our planet. The data is taken from OurWorldInData which in itself is a great ressource for data for your projects. They also list all the sources, map the data and also show different kinds of statistical analyses. I've taken a look at the annual deforestation volume from 2010 to 2015.
+
+<p align="center">
+  <img src="./Day11/Day11_Red.jpg"/>
+</p>
+
+Data source: OurWorldInData (https://ourworldindata.org/deforestation) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
 ## Day 12: Scale
 Libraries used: 
