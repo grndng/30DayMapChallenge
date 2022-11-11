@@ -34,7 +34,7 @@ df_with_geometries = pd.merge(df,world_json[["Entity","geometry"]], on="Entity",
 
 gdf_w_geoms = gpd.GeoDataFrame(df_with_geometries.drop(columns='geometry_x'), geometry="geometry_y")
 gdf_w_geoms = gdf_w_geoms.rename(columns = {"geometry_y":"geometry"})
-gdf_w_geoms = gdf_w_geoms.dropna()
+gdf_w_geoms = gdf_w_geoms.dropna() # some countries don't have a geometry :[
 
 map = KeplerGl()
 map.add_data(data=gdf_w_geoms, name="Countries w negative Net Change")
