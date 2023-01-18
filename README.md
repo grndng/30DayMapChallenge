@@ -122,14 +122,5 @@ Most of the time things that aren't optimal will be visualised in red and today 
 
 Data source: OurWorldInData (https://ourworldindata.org/deforestation) and GeoJSON Maps (https://geojson-maps.ash.ms/)
 
-## Day 12: Scale
-Libraries used: 
-
-## Day 13: 5 minute map
-Libraries used: 
-
-## Day 14: Hexagons
-Libraries used: 
-
-## Day 15: Food/drink
-Libraries used: 
+## Day ...
+Apparently I've created 11 maps in 2022 which is 11 more than in 2021.
